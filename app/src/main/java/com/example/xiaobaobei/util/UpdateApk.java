@@ -21,9 +21,9 @@ import com.lzy.okgo.model.Response;
  */
 public class UpdateApk {
 
-    //private static String PT_URL = "guangMingDing";
+    private static String PT_URL = "guangMingDing";
     //private static String PT_URL = "diDiDa";
-    private static String PT_URL = "luDingJi";
+//    private static String PT_URL = "luDingJi";
 
 
     public static void update(Activity context){     //http://47.94.255.103

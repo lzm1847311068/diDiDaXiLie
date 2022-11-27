@@ -29,17 +29,17 @@ import com.example.xiaobaobei.R;
  */
 public class KeepAliveService extends Service {
 
-//    private static String SUCCESS_TI_SHI = "光明顶助手";
-//    private static int ICON = R.mipmap.guangmingding;
-//    private static String CHANNELID = "guangmingding";
+    private static String SUCCESS_TI_SHI = "光明顶助手";
+    private static int ICON = R.mipmap.guangmingding;
+    private static String CHANNELID = "guangmingding";
 
 //    private static String SUCCESS_TI_SHI = "滴滴哒助手";
 //    private static int ICON = R.mipmap.didida;
 //    private static String CHANNELID = "didida";
 
-    private static String SUCCESS_TI_SHI = "鹿鼎记助手";
-    private static int ICON = R.mipmap.guangmingding;
-    private static String CHANNELID = "ludingji";
+//    private static String SUCCESS_TI_SHI = "鹿鼎记助手";
+//    private static int ICON = R.mipmap.guangmingding;
+//    private static String CHANNELID = "ludingji";
 
 
     private MediaPlayer mMediaPlayer;

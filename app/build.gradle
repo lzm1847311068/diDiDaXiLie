@@ -7,15 +7,15 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-//        applicationId "com.example.guangmingding"
+        applicationId "com.example.guangmingding"
 //        applicationId "com.example.didida"
-        applicationId "com.example.ludingji"
+//        applicationId "com.example.ludingji"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
-//        versionName "1.0.4"        //gmd
+        versionName "1.0.4"        //gmd
 //        versionName "1.0.4"        //ddd
-        versionName "1.0.0"        //ldj
+//        versionName "1.0.0"        //ldj
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -36,9 +36,9 @@ android {
     applicationVariants.all{ variant->
         variant.outputs.all { output->
             if(variant.buildType.name.equals('release')){
-//                outputFileName = "光明顶助手v" + defaultConfig.versionName + ".apk"
+                outputFileName = "光明顶助手v" + defaultConfig.versionName + ".apk"
 //                outputFileName = "滴滴哒助手v" + defaultConfig.versionName + ".apk"
-                outputFileName = "鹿鼎记助手v" + defaultConfig.versionName + ".apk"
+//                outputFileName = "鹿鼎记助手v" + defaultConfig.versionName + ".apk"
             }
             if(variant.buildType.name.equals('beta')){
 

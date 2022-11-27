@@ -129,15 +129,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      * 5、KeepAlive文件
      */
 
-//    private static final String PT_NAME = "guangMingDing";
-//    private static final String TITLE = "光明顶助手";
-//    private static final String SUCCESS_TI_SHI = "光明顶接单成功";
-//    private static final String TI_SHI = "光明顶App未安装";
-//    private static final String CHANNELID = "guangmingdingSuccess";
-//    private static final String APK_PACKAGE = "app.guanmingding.com";
-//    private static int ICON = R.mipmap.guangmingding;
-//    private static final int JIE_DAN_SUCCESS = R.raw.gmd_success;
-//    private static final int JIE_DAN_FAIL = R.raw.gmd_fail;
+    private static final String PT_NAME = "guangMingDing";
+    private static final String TITLE = "光明顶助手";
+    private static final String SUCCESS_TI_SHI = "光明顶接单成功";
+    private static final String TI_SHI = "光明顶App未安装";
+    private static final String CHANNELID = "guangmingdingSuccess";
+    private static final String APK_PACKAGE = "app.guanmingding.com";
+    private static int ICON = R.mipmap.guangmingding;
+    private static final int JIE_DAN_SUCCESS = R.raw.gmd_success;
+    private static final int JIE_DAN_FAIL = R.raw.gmd_fail;
 
 
 //    private static final String PT_NAME = "diDiDa";
@@ -151,15 +151,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //    private static final int JIE_DAN_FAIL = R.raw.ddd_fail;
 
 
-    private static final String PT_NAME = "luDingJi";
-    private static final String TITLE = "鹿鼎记助手";
-    private static final String SUCCESS_TI_SHI = "鹿鼎记接单成功";
-    private static final String TI_SHI = "鹿鼎记App未安装";
-    private static final String CHANNELID = "ludingjiSuccess";
-    private static final String APK_PACKAGE = "app.guanmingding.com";
-    private static int ICON = R.mipmap.guangmingding;
-    private static final int JIE_DAN_SUCCESS = R.raw.ldj_success;
-    private static final int JIE_DAN_FAIL = R.raw.ldj_fail;
+//    private static final String PT_NAME = "luDingJi";
+//    private static final String TITLE = "鹿鼎记助手";
+//    private static final String SUCCESS_TI_SHI = "鹿鼎记接单成功";
+//    private static final String TI_SHI = "鹿鼎记App未安装";
+//    private static final String CHANNELID = "ludingjiSuccess";
+//    private static final String APK_PACKAGE = "app.guanmingding.com";
+//    private static int ICON = R.mipmap.guangmingding;
+//    private static final int JIE_DAN_SUCCESS = R.raw.ldj_success;
+//    private static final int JIE_DAN_FAIL = R.raw.ldj_fail;
 
 
 
