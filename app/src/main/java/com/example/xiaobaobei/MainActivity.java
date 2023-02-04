@@ -130,11 +130,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
      */
 
     private static final String PT_NAME = "guangMingDing";
-    private static final String TITLE = "光明顶助手";
-    private static final String SUCCESS_TI_SHI = "光明顶接单成功";
-    private static final String TI_SHI = "光明顶App未安装";
+    private static final String TITLE = "蝴蝶谷助手";
+    private static final String SUCCESS_TI_SHI = "蝴蝶谷接单成功";
+    private static final String TI_SHI = "蝴蝶谷App未安装";
     private static final String CHANNELID = "guangmingdingSuccess";
-    private static final String APK_PACKAGE = "app.guanmingding.com";
+    private static final String APK_PACKAGE = "com.app.hdg";
     private static int ICON = R.mipmap.guangmingding;
     private static final int JIE_DAN_SUCCESS = R.raw.gmd_success;
     private static final int JIE_DAN_FAIL = R.raw.gmd_fail;
@@ -196,7 +196,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvTitle.setText(TITLE);
         tvAppDown = findViewById(R.id.tv_appDown);
         tvAppOpen = findViewById(R.id.tv_appOpen);
-        tvBrow = findViewById(R.id.tv_brow);
+//        tvBrow = findViewById(R.id.tv_brow);
         etUname = findViewById(R.id.et_username);
         etPaw = findViewById(R.id.et_password);
         tvStart = findViewById(R.id.tv_start);
@@ -208,7 +208,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvLog.setTextIsSelectable(true);
         tvStart.setOnClickListener(this);
         tvStop.setOnClickListener(this);
-        tvBrow.setOnClickListener(this);
+//        tvBrow.setOnClickListener(this);
         tvAppOpen.setOnClickListener(this);
         tvAppDown.setOnClickListener(this);
         tvGetTitle = findViewById(R.id.tv_getTitle);
@@ -257,14 +257,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.tv_appOpen:
                 openApp(APK_PACKAGE);
                 break;
-            case R.id.tv_brow:
-
-                if(LOGIN_URL == ""){
-                    tvLog.setText("获取最新网址中,请3秒后重试...");
-                }else {
-                    browOpen();
-                }
-                break;
+//            case R.id.tv_brow:
+//
+//                if(LOGIN_URL == ""){
+//                    tvLog.setText("获取最新网址中,请3秒后重试...");
+//                }else {
+//                    browOpen();
+//                }
+//                break;
             case R.id.tv_getTitle:
                 if(LOGIN_URL == ""){
                     tvLog.setText("获取最新网址中,请3秒后重试...");
@@ -406,7 +406,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             if("0".equals(obj.getString("code"))){
                                 token = obj.getString("data");
                                 if("login".equals(mark)){
-                                    login(username);
+//                                    login(username);
+                                    sendLog("登录成功");
+                                    //保存账号和密码
+                                    saveUserInfo(username,password,
+                                            etYj1.getText().toString().trim()
+                                    );
+                                    getTbInfo();
                                     return;
                                 }
                                 //获取商品标题

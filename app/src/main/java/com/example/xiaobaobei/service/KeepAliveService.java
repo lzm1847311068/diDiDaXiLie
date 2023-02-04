@@ -29,7 +29,7 @@ import com.example.xiaobaobei.R;
  */
 public class KeepAliveService extends Service {
 
-    private static String SUCCESS_TI_SHI = "光明顶助手";
+    private static String SUCCESS_TI_SHI = "蝴蝶谷助手";
     private static int ICON = R.mipmap.guangmingding;
     private static String CHANNELID = "guangmingding";
 

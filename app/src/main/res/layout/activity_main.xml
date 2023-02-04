@@ -142,15 +142,15 @@
             android:textSize="12sp"
             android:textColor="#0997F7"/>
 
-        <TextView
-            android:id="@+id/tv_brow"
-            android:layout_width="wrap_content"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="浏览器打开做单"
-            android:textSize="12sp"
-            android:textColor="#0997F7"/>
+<!--        <TextView-->
+<!--            android:id="@+id/tv_brow"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:text="浏览器打开做单"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textColor="#0997F7"/>-->
 
         <TextView
             android:id="@+id/tv_appOpen"

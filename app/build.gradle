@@ -11,9 +11,10 @@ android {
 //        applicationId "com.example.didida"
 //        applicationId "com.example.ludingji"
         minSdkVersion 16
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 30
         versionCode 1
-        versionName "1.0.4"        //gmd
+        versionName "1.0.5"        //gmd
 //        versionName "1.0.4"        //ddd
 //        versionName "1.0.0"        //ldj
 
